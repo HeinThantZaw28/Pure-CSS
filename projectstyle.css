@@ -1,0 +1,221 @@
+body{
+	margin: 0px; /*to display full screen*/
+	padding: 0px; /*to display full screen*/
+	font-family: cursive;
+	background: grey;
+} 
+
+.navbar{
+	background: white;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+
+}
+
+.navbar a{
+	color:#000;
+	text-decoration: none; /*to disappear the link text*/
+	padding: 15px 16px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+button, input, textarea{
+	font-family: cursive;
+}
+
+.celepets{
+	padding: 15px 16px;
+	font-size: 16px;
+	font-weight: bold;
+	background: white;
+	border:0px;
+}
+
+.Dropdown{
+	float:left;
+}
+
+.sub{
+	position: fixed; /*must same with the navi bar position*/
+	background: #ddd;
+	display: none;
+	padding: 15px 16px;
+
+}
+
+.sub>a{
+	display: block;
+	float: none;
+
+}
+.navbar a:hover, .celepets:hover{
+	background: pink;
+	color: white;
+}
+
+.Dropdown:hover .sub{
+	display: block;
+}
+
+.welcome{
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.welcome div{
+	width:40%;
+}
+
+.welcome h1{
+	color: red;
+}
+
+.welcome p{
+	line-height: 30px;
+	color: #666;
+}
+
+.welcome1 button, .form button{
+	padding: 5px 15px;
+	background: #969;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: 3px solid #ddd;
+	border-radius: 14px 14px;
+	margin-left: 50px;
+}
+
+.welcome>div{
+	margin-top: 20px;
+	padding: 0px 10px;
+}
+
+.welcome2 img{
+	border-radius: 40px;
+}
+
+/*activity*/
+.activity{
+	float: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.activity> div{
+width: 25%;
+margin: 10px;
+}
+
+.activity img{
+	border-radius: 30px;
+}
+
+.activity1{
+	display: flex;
+}
+.activity1 div{
+	background: #777;
+	color: #fff;
+	margin:10px;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.cele{
+display: flex;
+background: tomato;
+justify-content: center;
+/*border-radius: 50%;*/
+}
+
+.cele div{
+	width: 15%;
+	/*border-radius: 50%;/*/
+	margin: 30px;
+	color:white;
+	text-align: center;
+
+}
+.cele img{
+	border-radius: 50%;
+}
+
+#Cele, #gallery, #contact, #about ,#welcome, #activity{
+	text-align: center;
+	margin: 80px 0px;
+}
+
+.gallery{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.gallery div{
+	width: 25%;
+	margin: 10px;
+	border: 2px solid black;
+	box-shadow: 7px 8px 5px #969;
+}
+
+.gallery img{
+	/*border-radius: 50%;*/
+
+}
+
+.about{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.about div{
+	width: 40%;
+	margin: 0px 10px;
+
+}
+
+.hed{
+	text-align: right;
+}
+ .contact{
+ 	display: flex;
+ }
+.map{
+	width:70%;
+}
+ .form{
+ 	width: 30%;
+
+ }
+ .form input{
+ 	width:95%;
+ 	height: 40px;
+ 	margin-bottom: 7px;
+ 	font-size: 16px;
+ }
+ .form textarea{
+ 	width: 95%;
+ 	font-size: 16px;
+ }
+
+ .top{
+ 	width: 50px;
+ 	height: 50px;
+ 	background: grey;
+ 	color: #fff;
+ 	font-size: 35px;
+ 	font-weight: bold;
+ 	border: 3px solid #ddd;
+ 	border-radius: 50%;
+ 	bottom:50px;
+ 	right: 20px;
+ 	position: fixed;
+ }
